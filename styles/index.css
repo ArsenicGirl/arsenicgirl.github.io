@@ -1,3 +1,7 @@
+:root{
+    --word-font: 'Rubik', sans-serif;
+}
+
 .initial-info{
     display: flex;
     flex-wrap: wrap;
@@ -20,7 +24,7 @@
     position: relative;
     width: 80%;
     height: 30rem;
-    background-color: #3b70c4;
+    background-color: rgba(75, 127, 211, 0.678);
     border-radius: 0 0 15px 15px ;
 }
 
@@ -30,6 +34,17 @@ h1{
     font-style: italic;
 }
 
+.initial-text{
+
+    width: 500px;
+    height: 200px;
+    font-family: var(--word-font);
+    position: absolute;
+    bottom: 100px;
+    left: calc(50% - 200px);
+  
+    font-size: 20px;
+}
 .principal-img{
     margin-top: 30px;
     width: 150px;
@@ -39,3 +54,91 @@ h1{
     margin-left: 20px;
 }
 
+.initial-info #box-1{
+    width: 300px;
+    height: 260px;
+    font-family: var(--word-font);
+    border: 1px solid #050505b0;
+    background-color: aliceblue;
+    position: absolute;
+    bottom: 10px;
+    left: calc(50% - 438px);
+    box-shadow: 0 0 15px #0000005b;
+        
+}
+.initial-info #box-2{
+    margin: -10px 41vw 9px; /*El margin auto funciona solo cuando esta definidfo el width osea el ancho*/
+    width: 300px;
+    height: 260px;
+    padding: 5px;
+    position: absolute;
+    bottom: 3px;
+    font-family: var(--word-font);
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    box-shadow: 0 0 15px #0000005b;
+    background-color: aliceblue;
+}
+
+.initial-info #box-3{
+    margin: -10px 41vw 9px 965px; /*El margin auto funciona solo cuando esta definidfo el width osea el ancho*/
+    width: 300px;
+    height: 260px;
+    padding: 5px;
+    position: absolute;
+    bottom: 3px;
+    font-family: var(--word-font);
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    box-shadow: 0 0 15px #0000005b;
+    background-color: aliceblue;
+}
+
+h3{
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.btn-more{
+    width: 90px;
+    font-size: 20px;
+    font-family: var(--word-font);
+    margin: 130px 100px;
+    background-color: rgb(207, 206, 205);
+}
+
+
+/*
+
+medidas para tablet
+
+.initial-info .box-1{
+    width: 300px;
+    height: 260px;
+    font-family: var(--word-font);
+    border: 1px solid #050505b0;
+    background-color: aliceblue;
+    border-radius: 10%;
+    position: absolute;
+    bottom: 10px;
+    left: calc(50% - 290px);
+    box-shadow: 0 0 15px #0000005b;
+    
+        
+}
+.initial-info .box-2{
+    margin: -10px 50vw 10px; 
+        width: 300px;
+    height: 260px;
+    padding: 5px;
+    position: absolute;
+    bottom: 3px;
+    font-family: var(--word-font);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10%;
+    box-sizing: border-box;
+    box-shadow: 0 0 15px #0000005b;
+    background-color: aliceblue;
+}
+*/
