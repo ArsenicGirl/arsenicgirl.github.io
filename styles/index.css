@@ -42,7 +42,6 @@ h1{
     position: absolute;
     bottom: 100px;
     left: calc(50% - 200px);
-  
     font-size: 20px;
 }
 .principal-img{
@@ -100,11 +99,17 @@ h3{
     font-size: 20px;
 }
 
+p{
+    font-family: var(--word-font);
+    text-align: center;
+    font-size: 20px;
+}
+
 .btn-more{
     width: 90px;
     font-size: 20px;
     font-family: var(--word-font);
-    margin: 130px 100px;
+    margin: 30px 100px;
     background-color: rgb(207, 206, 205);
 }
 
