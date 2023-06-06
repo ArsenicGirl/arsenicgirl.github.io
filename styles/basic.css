@@ -1,9 +1,9 @@
 :root{
     --background-color: white;
-    --header-color: rgb(3, 26, 129); 
+    --header-color: #132A4C; 
     --tittle-color: white;
-    --text-color: black;
-    
+    --text-color: aliceblue;
+    --text-font: 'Rubik', sans-serif;
 
 }
 
@@ -53,27 +53,27 @@
 }
 
 .menu li{
-    color:var(--tittle-color);
-    font-family:'Rubik', sans-serif;
+    color:white;
+    font-family: var(--text-font);
     padding: 18px 15px 15px 15px;
     font-size: 100%;
     text-transform: uppercase;
     cursor: pointer;
 }
 
-.menu a::after{
+.menu li::after{
     content: "";
     background-color: brown/*#D90D32*/;
-    position: absolute; 
+    position: absolute;
     top: 60%;
-    width: 8%;
+    width: 6%;
     height: 3px;
-
     opacity: 0;
 }
 
+
 /*.menu a.select1::after,*/
-.menu a:hover::after{
+.menu li:hover::after{
     cursor: pointer;
     opacity: 0.8;
 }

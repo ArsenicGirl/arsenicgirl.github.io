@@ -1,5 +1,11 @@
 :root{
     --word-font: 'Rubik', sans-serif;
+    --background-color: white;
+    --theme-color: #1E5DA9;
+    --header-color: #132A4C; 
+    --tittle-color: black;
+    --text-color: black;
+    --btn-color: rgb(207, 206, 205);
 }
 
 .initial-info{
@@ -21,10 +27,9 @@
 }
 .initial-info .initial-info-portada{
     display: block;
-    position: relative;
     width: 80%;
     height: 30rem;
-    background-color: rgba(75, 127, 211, 0.678);
+    background-color: rgba(54, 112, 206, 0.692);
     border-radius: 0 0 15px 15px ;
 }
 
@@ -40,7 +45,7 @@ h1{
     height: 200px;
     font-family: var(--word-font);
     position: absolute;
-    bottom: 100px;
+    bottom: 300px;
     left: calc(50% - 200px);
     font-size: 20px;
 }
@@ -57,9 +62,9 @@ h1{
     width: 300px;
     height: 260px;
     font-family: var(--word-font);
-    border: 1px solid #050505b0;
-    background-color: aliceblue;
     position: absolute;
+    border: 1px solid #050505b0;
+    background-color: var(--background-color);
     bottom: 10px;
     left: calc(50% - 438px);
     box-shadow: 0 0 15px #0000005b;
@@ -76,7 +81,7 @@ h1{
     border: 1px solid rgb(0, 0, 0);
     box-sizing: border-box;
     box-shadow: 0 0 15px #0000005b;
-    background-color: aliceblue;
+    background-color: var(--background-color);
 }
 
 .initial-info #box-3{
@@ -90,7 +95,7 @@ h1{
     border: 1px solid rgb(0, 0, 0);
     box-sizing: border-box;
     box-shadow: 0 0 15px #0000005b;
-    background-color: aliceblue;
+    background-color: var(--background-color);
 }
 
 h3{
@@ -110,9 +115,51 @@ p{
     font-size: 20px;
     font-family: var(--word-font);
     margin: 30px 100px;
-    background-color: rgb(207, 206, 205);
+    background-color: var(--btn-color);
 }
 
+.logramos{
+    display: flex;
+    flex-direction: column;
+}
+
+.logramos-body{
+    background-color: var(--theme-color);
+    font-family: var(--word-font);
+    color: antiquewhite;
+}
+
+.wave{
+    width: 100%;
+    top: 2px;
+}
+
+.wave_bottom{
+    top: -2px
+}
+
+.logramos-tittle{
+    text-align: center;
+    font-size: 40px;
+    text-decoration:underline;
+    font-style: italic;
+
+}
+ .logramos-text{
+    text-align: center;
+    font-size: 27px;
+    margin: 30px 70px 0px 70px;
+}
+
+.logo-banco{
+    display: flex;
+    width: 180px;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    border:3px solid black;
+    border-radius: 50%;
+}
 
 /*
 
