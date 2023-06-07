@@ -3,7 +3,7 @@
     --header-color: #132A4C; 
     --tittle-color: white;
     --text-color: aliceblue;
-    --text-font: 'Rubik', sans-serif;
+    --word-font: 'Rubik', sans-serif;
 
 }
 
@@ -54,7 +54,7 @@
 
 .menu li{
     color:white;
-    font-family: var(--text-font);
+    font-family: var(--word-font);
     padding: 18px 15px 15px 15px;
     font-size: 100%;
     text-transform: uppercase;
@@ -82,7 +82,24 @@
     display: none;
 }
 
+/*textos*/
 
+p{
+    font-family: var(--word-font);
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: var(--word-font);
+    text-decoration:underline;
+    font-style: italic;
+
+}
 /*
 @media(max-width:950px){
 
