@@ -61,10 +61,11 @@ h1{
 }
 
 .initial-info #box-1{
+    margin: -49px 18vw 9px;
     width: 300px;
     height: 260px;
     font-family: var(--word-font);
-    position: absolute;
+
     border: 1px solid #050505b0;
     background-color: var(--background-color);
     bottom: 10px;
@@ -73,11 +74,10 @@ h1{
         
 }
 .initial-info #box-2{
-    margin: -10px 41vw 9px; /*El margin auto funciona solo cuando esta definidfo el width osea el ancho*/
+    margin: -272px 39vw 9px; /*El margin auto funciona solo cuando esta definidfo el width osea el ancho*/
     width: 300px;
     height: 260px;
     padding: 5px;
-    position: absolute;
     bottom: 3px;
     font-family: var(--word-font);
     border: 1px solid rgb(0, 0, 0);
@@ -87,11 +87,10 @@ h1{
 }
 
 .initial-info #box-3{
-    margin: -10px 41vw 9px 965px; /*El margin auto funciona solo cuando esta definidfo el width osea el ancho*/
+    margin: -273px 38vw 9px 965px; /*El margin auto funciona solo cuando esta definidfo el width osea el ancho*/
     width: 300px;
     height: 260px;
     padding: 5px;
-    position: absolute;
     bottom: 3px;
     font-family: var(--word-font);
     border: 1px solid rgb(0, 0, 0);
@@ -147,24 +146,20 @@ h3{
     display: flex;
     width: 160px;
     height: 160px;
-    align-items: center;
-    justify-content: center;
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-left: 30pc;
     box-shadow: 0 4px 12px black;
 }
 
 .link-uni{
-    position: absolute;
     width: 160px;
     height: 160px;
-    align-items: center;
-    justify-content: center;
     border:1px solid black;
     border-radius: 50%;
     margin-left: 56pc;
-    margin-top: -11pc;
+    margin-bottom: 1pc;
+    margin-top: -2000pc;
     box-shadow: 0 4px 12px black;
 }
 .contact-text{
@@ -172,6 +167,12 @@ h3{
     font-size: 27px;
     margin: 70px 70px 60px 70px;
 }
+
+.btn-conections{
+    align-items: center;
+    justify-content: center;
+}
+
 
 /*
 
