@@ -102,7 +102,7 @@ h2{
 }
 
 footer{
-    width: 100%;
+    width: 100% auto;
     position: relative;
     bottom: 0;
     left: 0;
