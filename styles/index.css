@@ -72,7 +72,6 @@ h1{
     bottom: 10px;
     left: calc(50% - 438px);
     box-shadow: 0 0 15px #0000005b;
-        
 }
 .initial-info #box-2{
     margin: -272px 39vw 9px; /*El margin auto funciona solo cuando esta definidfo el width osea el ancho*/
@@ -114,6 +113,8 @@ h3{
     font-family: var(--word-font);
     margin: 30px 100px;
     background-color: var(--btn-color);
+    cursor: pointer;
+
 }
 
 .logramos{
