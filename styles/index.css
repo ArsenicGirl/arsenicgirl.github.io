@@ -47,7 +47,7 @@ h1{
     height: 200px;
     font-family: var(--word-font);
     position:relative;
-    bottom: 200px;
+    bottom: 240px;
     left: calc(50% - 200px);
     font-size: 20px;
     
@@ -73,17 +73,26 @@ h1{
     left: calc(50% - 438px);
     box-shadow: 0 0 15px #0000005b;
 }
+
+#b-1{
+    margin-bottom: -1px;
+}
+
 .initial-info #box-2{
     margin: -272px 39vw 9px; /*El margin auto funciona solo cuando esta definidfo el width osea el ancho*/
     width: 300px;
     height: 260px;
-    padding: 5px;
+    padding: 10px;
     bottom: 3px;
     font-family: var(--word-font);
     border: 1px solid rgb(0, 0, 0);
     box-sizing: border-box;
     box-shadow: 0 0 15px #0000005b;
     background-color: var(--background-color);
+}
+
+#b-2{
+    align:justify;
 }
 
 .initial-info #box-3{
@@ -97,6 +106,10 @@ h1{
     box-sizing: border-box;
     box-shadow: 0 0 15px #0000005b;
     background-color: var(--background-color);
+}
+
+#b-3{
+    margin-bottom: -2px;
 }
 
 h3{
@@ -114,7 +127,7 @@ h3{
     margin: 30px 100px;
     background-color: var(--btn-color);
     cursor: pointer;
-
+ 
 }
 
 .logramos{
