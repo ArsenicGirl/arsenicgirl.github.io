@@ -33,13 +33,11 @@
     border-radius: 0 0 15px 15px ;
 }
 
-h1{
-    margin-left: 20px;
-    font-family:'Rubik', sans-serif;
-    font-style: italic;
+
+ h2{
     text-align: center;
-    text-transform: uppercase;
-}
+ }
+
 
 .initial-text{
 
@@ -50,6 +48,7 @@ h1{
     bottom: 240px;
     left: calc(50% - 200px);
     font-size: 20px;
+    
     
 }
 .principal-img{
