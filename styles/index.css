@@ -43,7 +43,7 @@ h1{
 
 .initial-text{
 
-    width: 500px;
+    width: 600px;
     height: 200px;
     font-family: var(--word-font);
     position:relative;
@@ -74,8 +74,8 @@ h1{
     box-shadow: 0 0 15px #0000005b;
 }
 
-#b-1{
-    margin-bottom: -1px;
+#b-1, #t-1{
+    margin-top: 25px;
 }
 
 .initial-info #box-2{
@@ -109,6 +109,8 @@ h1{
 }
 
 #b-3{
+    margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: -2px;
 }
 

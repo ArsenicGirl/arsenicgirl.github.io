@@ -104,8 +104,9 @@ footer{
     width: 100%;
     height: 400px;
     position: relative;
-    /*bottom: 0;
-    left: 0;
+   bottom: -100px;
+    left: 0; 
+    /*
     padding: 1rem 6%;*/
     background-color: var(--header-color);
     flex-direction: column;
@@ -118,11 +119,13 @@ footer{
     
     border-radius: 50%;
     margin-left: 60px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .siguenos-text{
     position: relative;
+    text-align: right;
+    right: 18%;
     color: antiquewhite;
     font-family: var(--word-font);
     bottom: 280px;
@@ -143,13 +146,13 @@ footer{
 }
 
 
-
+/*redes sociales*/
 .social-icon-fb{
     width: 75px;
     border-radius: 50px;
     filter: invert(100%);
     position: relative;
-    left: 78%;
+    left: 68%;
     bottom: 280px;
 }
 .social-icon-ig{
@@ -157,7 +160,7 @@ footer{
     border-radius: 50px;
     filter: invert(100%);
     position: relative;
-    left: 78.5%;
+    left: 68.5%;
     bottom: 280px;
 }
 .social-icon-tw{
@@ -165,10 +168,17 @@ footer{
     border-radius: 50px;
     filter: invert(100%);
     position: relative;
-    left: 78%;
+    left: 68%;
     bottom: 270px;
 }
-
+.social-icon-tk{
+    width: 80px;
+    border-radius: 50px;
+    filter: invert(100%);
+    position: relative;
+    left: 68%;
+    bottom: 277px;
+}
 
 
 .footer-menu-container{
