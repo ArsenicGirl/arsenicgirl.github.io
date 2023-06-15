@@ -59,9 +59,21 @@
     height: fit-content;
     margin-left: 20px;
 }
-
+/*
 .initial-info #box-1{
     margin: -49px 18vw 9px;
+    width: 300px;
+    height: 260px;
+    font-family: var(--word-font);
+
+    border: 1px solid #050505b0;
+    background-color: var(--background-color);
+    bottom: 10px;
+    left: calc(50% - 438px);
+    box-shadow: 0 0 15px #0000005b;
+}*/
+.initial-info #box-1{
+    margin: -49px 14vw 9px;
     width: 300px;
     height: 260px;
     font-family: var(--word-font);
@@ -95,7 +107,8 @@
 }
 
 .initial-info #box-3{
-    margin: -273px 38vw 9px 965px; /*El margin auto funciona solo cuando esta definidfo el width osea el ancho*/
+    /*margin: -273px 38vw 9px 960px; El margin auto funciona solo cuando esta definidfo el width osea el ancho*/
+    margin: -273px 38vw 9px 870px;
     width: 300px;
     height: 260px;
     padding: 5px;
