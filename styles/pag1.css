@@ -13,9 +13,17 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        background-color: var(--theme-color);
+}
+.principal-text-1{
+    width: 800px;
+    height: 200px;
+    margin-left: 25pc;
+    margin-top: 40px;
+    text-align: center;
 }
 
-h2{
+.temas-1{
     text-align: left;
     margin-left: 20%;
     font-size: 40px;
@@ -36,4 +44,24 @@ h2{
     margin-top: 6%;
     display: flex;
     width:27%;
+}
+.contact-tittle{
+    text-align: center;
+}
+.contact-text{
+    text-align: center;
+    font-size: 27px;
+    margin: 70px 70px 60px 70px;
+}
+.btn-wst{
+    width: 8%;
+    margin-left: 32%;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px black;
+}
+.btn-mail{
+    width: 7%;
+    margin-left: 18%;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px black;
 }
