@@ -59,7 +59,7 @@
     height: fit-content;
     margin-left: 20px;
 }
-/*
+
 .initial-info #box-1{
     margin: -49px 18vw 9px;
     width: 300px;
@@ -71,8 +71,8 @@
     bottom: 10px;
     left: calc(50% - 438px);
     box-shadow: 0 0 15px #0000005b;
-}*/
-.initial-info #box-1{
+}
+/*.initial-info #box-1{
     margin: -49px 14vw 9px;
     width: 300px;
     height: 260px;
@@ -83,7 +83,7 @@
     bottom: 10px;
     left: calc(50% - 438px);
     box-shadow: 0 0 15px #0000005b;
-}
+}*/
 
 #b-1, #t-1{
     margin-top: 25px;
@@ -107,8 +107,7 @@
 }
 
 .initial-info #box-3{
-    /*margin: -273px 38vw 9px 960px; El margin auto funciona solo cuando esta definidfo el width osea el ancho*/
-    margin: -273px 38vw 9px 870px;
+    margin: -273px 38vw 9px 960px; /*El margin auto funciona solo cuando esta definidfo el width osea el ancho*/
     width: 300px;
     height: 260px;
     padding: 5px;

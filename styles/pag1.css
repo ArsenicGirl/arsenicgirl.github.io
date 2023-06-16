@@ -14,6 +14,7 @@
         justify-content: space-around;
         align-items: center;
         background-color: var(--theme-color);
+
 }
 .principal-text-1{
     width: 800px;
@@ -21,6 +22,9 @@
     margin-left: 25pc;
     margin-top: 40px;
     text-align: center;
+}
+.wave_bottom{
+    top: -2px
 }
 
 .temas-1{
