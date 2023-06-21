@@ -8,21 +8,27 @@
     --btn-color: rgb(207, 206, 205);
 }
 
-
+.principal-text-1{
+    text-align: center;
+    font-size: 22px;
+    padding: 0 100px;
+    margin: 70px 70px 60px 70px;
+}
 .second-info-1{
         display: flex;
         justify-content: space-around;
         align-items: center;
         background-color: var(--theme-color);
+        padding-bottom: -20px;
+        
 
 }
-.principal-text-1{
-    width: 800px;
-    height: 200px;
-    margin-left: 25pc;
-    margin-top: 40px;
-    text-align: center;
+.wave{
+    display: flex;
+    top: -10px
 }
+
+
 .wave_bottom{
     top: -2px
 }
@@ -31,17 +37,24 @@
     text-align: left;
     margin-left: 20%;
     font-size: 40px;
+    color: antiquewhite;
 }
 
 .list-container-1{
     font-family: var(--word-font);
-    font-size: 23px;
+    font-size: 27px;
     margin-left: -24px;
+    color: antiquewhite;
 }
 .info-item-1{
     justify-content: space-between;
     margin-bottom: 20px;
 
+}
+
+.text-item-1{
+    width: 550px;
+    margin-bottom: 50px;
 }
 
 .principal-img-1{
