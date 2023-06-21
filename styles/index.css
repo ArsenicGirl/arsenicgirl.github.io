@@ -227,10 +227,10 @@ h3{
 .formulario{
     display: flex;
     top: 100px;
-    margin-left: 30%;
+    margin-left: 35%;
     width: 440px;
     height: 20pc ;
-    background-color: rgb(207, 207, 255);
+    background-color: #1e5da96b;
     border-radius: 10px;
    
 }
@@ -242,7 +242,7 @@ h3{
 form .name{
     position: relative;
     width: 340px;
-    border-bottom: 2px solid rgb(158, 158, 158);
+    border-bottom: 2px solid rgb(115, 125, 146);
     margin: 35px 0;
     color: rgb(0, 0, 0);
 }
