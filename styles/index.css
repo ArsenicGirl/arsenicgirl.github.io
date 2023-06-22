@@ -4,8 +4,8 @@
     --theme-color: #1E5DA9;
     --header-color: #132A4C; 
     --tittle-color: black;
-    --text-color: black;
-    --btn-color: rgb(207, 206, 205);
+    --text-color: rgb(255, 255, 255);
+    --btn-color: rgb(241, 241, 241);
 }
 
 .initial-info{
@@ -82,7 +82,8 @@ h3{
     background-color: var(--background-color);
     bottom: 10px;
     left: calc(50% - 438px);
-    box-shadow: 0 0 15px #0000005b;
+    box-shadow: 0 0 15px #0000007c;
+    border: transparent;
 }
 /*.initial-info #box-1{
     margin: -49px 14vw 9px;
@@ -99,6 +100,7 @@ h3{
 
 #b-1, #t-1{
     margin-top: 25px;
+    margin-bottom: -1px;
 }
 
 .initial-info #box-2{
@@ -110,12 +112,14 @@ h3{
     font-family: var(--word-font);
     border: 1px solid rgb(0, 0, 0);
     box-sizing: border-box;
-    box-shadow: 0 0 15px #0000005b;
     background-color: var(--background-color);
+    box-shadow: 0 0 15px #0000007c;
+    border: transparent;
 }
 
 #b-2{
     align:justify;
+    margin-bottom: -1px;
 }
 
 .initial-info #box-3{
@@ -127,18 +131,16 @@ h3{
     font-family: var(--word-font);
     border: 1px solid rgb(0, 0, 0);
     box-sizing: border-box;
-    box-shadow: 0 0 15px #0000005b;
+    box-shadow: 0 0 15px #0000007c;
+    border: transparent;
     background-color: var(--background-color);
 }
 
 #b-3{
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: -2px;
+    margin-bottom: -13px;
 }
-
-
-
 
 
 .btn-more{
@@ -146,10 +148,34 @@ h3{
     font-size: 20px;
     font-family: var(--word-font);
     margin: 30px 100px;
-    background-color: var(--btn-color);
+    transition: transform 0.8s ease, box-shadow 0.3s ease;
+    background: var(--btn-color);
+    /*background: linear-gradient(var(--btn-color), #8ab9f3);*/
     cursor: pointer;
- 
+    border-radius: 50px;
+    color: #000;
+    border-color: #96b4db;
 }
+.btn-more:hover{
+    transform: translateY(-10px);
+    color: #ffffff;
+    border-color: #497dbd;
+    background: #8ab3e6;
+    box-shadow: 4px 10px 8px #0000004b;
+    transition: transform 0.8s ease, box-shadow 0.3s ease;
+
+}
+
+
+/*
+.btn-more:hover{
+    background: linear-gradient(#6c94c4, var(--btn-color));
+    
+    box-shadow: 0 0 15px #0000007c;
+}
+.btn-more::before{
+    box-shadow: 0 0 15px #000000;
+}*/
 
 .logramos{
     display: flex;
