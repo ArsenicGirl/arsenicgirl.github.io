@@ -61,7 +61,7 @@
     cursor: pointer;
 }
 
-.menu li::after{
+.menu li::before{
     content: "";
     background-color: brown/*#D90D32*/;
     position:absolute;
@@ -73,7 +73,7 @@
 
 
 /*.menu a.select1::after,*/
-.menu li:hover::after{
+.menu li:hover::before{
     cursor: pointer;
     opacity: 0.8;
 }

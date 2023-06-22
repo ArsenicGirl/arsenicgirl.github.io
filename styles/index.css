@@ -44,12 +44,11 @@ body{
 
 
 .initial-text{
-
+    margin: -18% 0 0 30% ;
     width: 600px;
     height: 200px;
     font-family: var(--word-font);
-    position:relative;
-    bottom: 240px;
+    
     left: calc(50% - 200px);
     font-size: 20px;
     
@@ -102,6 +101,12 @@ h3{
     margin-top: 25px;
     margin-bottom: -1px;
 }
+#box-1:hover{
+    transform: translateY(-20px);
+    box-shadow: 35px 40px 8px #00000042;
+    transition: transform 0.8s ease, box-shadow 0.3s ease;
+}
+
 
 .initial-info #box-2{
     margin: -272px 39vw 9px; /*El margin auto funciona solo cuando esta definidfo el width osea el ancho*/
@@ -116,7 +121,11 @@ h3{
     box-shadow: 0 0 15px #0000007c;
     border: transparent;
 }
-
+#box-2:hover{
+    transform: translateY(-20px);
+    box-shadow: 35px 40px 8px #00000042;
+    transition: transform 0.8s ease, box-shadow 0.3s ease;
+}
 #b-2{
     align:justify;
     margin-bottom: -1px;
@@ -141,6 +150,11 @@ h3{
     margin-right: 10px;
     margin-bottom: -13px;
 }
+#box-3:hover{
+    transform: translateY(-20px);
+    box-shadow: 40px 40px 8px #00000042;
+    transition: transform 0.8s ease, box-shadow 0.3s ease;
+}
 
 
 .btn-more{
@@ -161,7 +175,7 @@ h3{
     color: #ffffff;
     border-color: #497dbd;
     background: #8ab3e6;
-    box-shadow: 4px 10px 8px #0000004b;
+    box-shadow: 6px 9px 8px #0000004b;
     transition: transform 0.8s ease, box-shadow 0.3s ease;
 
 }
