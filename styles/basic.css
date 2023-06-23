@@ -6,6 +6,9 @@
     --word-font: 'Rubik', sans-serif;
 
 }
+html{
+    scroll-behavior: smooth;
+}
 
 .header{
     background: var(--header-color);
@@ -72,9 +75,7 @@ a{
     height: 3px;
     opacity: 0;
 }
-#contact{
-    scroll-padding-top: 70px 0.3s;
-}
+
 
 /*.menu a.select1::after,*/
 .menu li:hover::before{
