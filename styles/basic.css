@@ -35,16 +35,18 @@
     align-items: center;
 }*/
 .header-icon{
-    width: 50px;
+    width: 200px;
     display: flex;
     min-width: 80px;
     height: fit-content;
-    border-radius: 50%;
 }
 
 
 /*Menu*/
-
+a{
+    color: var(--text-color);
+    text-decoration: none;
+}
 .menu{
     display: flex;
     list-style: none;
@@ -65,17 +67,20 @@
     content: "";
     background-color: brown/*#D90D32*/;
     position:absolute;
-    top: 60%;
+    top: 63%;
     width: 6%;
     height: 3px;
     opacity: 0;
 }
-
+#contact{
+    scroll-padding-top: 70px 0.3s;
+}
 
 /*.menu a.select1::after,*/
 .menu li:hover::before{
     cursor: pointer;
     opacity: 0.8;
+ 
 }
 
 .open-menu-btn, .close-menu-btn{
