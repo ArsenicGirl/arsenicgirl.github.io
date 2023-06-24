@@ -41,6 +41,9 @@ body{
     text-align: center;
     
  }
+ p{
+    font-size: 20px;
+ }
 
 
 .initial-text{
@@ -334,10 +337,11 @@ input[type="submit"]{
 /*
 
 medidas para tablet*/
-@mediaall and (max-height:1000px) {
+@media (max-height:1000px) {
 
  .initial-info #box-1 {
         margin-left: 14vw;
+        margin-bottom: 30px;
 }
 
 .initial-info #box-2 {
@@ -354,3 +358,12 @@ medidas para tablet*/
 }
 
 }
+/*
+@media (max-height:1115px) {
+    .initial-info #box-1 {
+        margin-bottom: -20px;
+        margin-left: 11vw;
+        padding: 4px 4px 4px -14px ;
+}
+
+}*/
