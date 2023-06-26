@@ -337,6 +337,7 @@ input[type="submit"]{
 /*
 
 medidas para tablet*/
+/*
 @media (max-height:1000px) {
 
  .initial-info #box-1 {
@@ -357,7 +358,8 @@ medidas para tablet*/
     font-size: 5px;
 }
 
-}
+}*/
+
 /*
 @media (max-height:1115px) {
     .initial-info #box-1 {
