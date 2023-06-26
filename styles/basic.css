@@ -196,7 +196,7 @@ footer{
 
 
 .footer-menu-container{
-    color: antiquewhite;
+    color: white;
     font-family: var(--word-font);
     bottom: 380px;
     position: relative;
@@ -210,6 +210,39 @@ footer{
     margin-bottom: 20px;
     justify-content: space-between;
     list-style: none;
+}
+
+/*ipad*/
+
+@media (max-width: 768px) {
+
+    .contactanos-text{
+        margin-left: 260px;
+    }
+    .footer-item{
+        margin-left: -300px;
+    }
+    .social-icon-fb{
+        width: 8%;
+        bottom: 298px;
+        margin-left: -59px;
+    }
+    .social-icon-ig{
+        width: 9%;
+        bottom: 293px;
+        margin-left: -1px;
+    }
+    .social-icon-tw{
+        width: 11.5%;
+        bottom: 280px;
+        margin-left: -2px;
+    }
+    .social-icon-tk{
+        width: 9%;
+        bottom: 290px;
+        margin-left: -6px;
+    }
+    
 }
 /*
 @media(max-width:950px){

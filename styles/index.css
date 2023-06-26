@@ -64,6 +64,7 @@ body{
     min-width: 250px;
     height: fit-content;
     margin-left: 20px;
+    box-shadow: 40px 40px 8px #00000042;
 }
 
 
@@ -337,6 +338,54 @@ input[type="submit"]{
 /*
 
 medidas para tablet*/
+@media (max-width: 768px) {
+    h1{
+        font-size:27px;
+    }
+    .initial-text{
+        font-size: 18px;
+        width: 18pc;
+        margin-left: 20pc;
+        margin-top: -16pc;
+    }
+    .initial-info #box-1 {
+        margin-left: 29vw;
+        margin-bottom: 15px;
+    }
+
+    .initial-info #box-2 {
+        margin: 5% 29vw 32px; 
+        width: 300px;
+        height: 260px;
+        font-size: 5px;
+        box-shadow: 0 0 15px #00000094;
+    }  
+    .initial-info #box-3 {
+        margin: 5% 29vw 30px; 
+        width: 300px;
+        height: 260px;
+        font-size: 5px;
+        box-shadow: 0 0 15px #00000094;
+    }
+    .link-banco{
+        width: 15%;
+        height: 15%;
+    }
+    .link-uni{
+        width: 15%;
+        height: 15%;
+        display: flex;
+        margin: -120px 0px 20px 200px;
+    }
+    .btn-mail , .btn-wst{
+        width: 10%;
+    }
+    .formulario{
+        margin-left: 25%;
+    }
+}
+
+
 /*
 @media (max-height:1000px) {
 
