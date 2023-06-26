@@ -242,7 +242,24 @@ footer{
         bottom: 290px;
         margin-left: -6px;
     }
+    .contactanos-text{
+        margin-left: 400px;
+        font-size: 17px;
+        margin-top: 60px;
+    }
+
     
+}
+
+@media (max-width: 500px) {
+    .footer-link-banco, .footer-link-uni{
+        width: 15%;
+        height: 20%;
+    }
+    .footer-item{
+        font-size: 10px;
+    }
+
 }
 /*
 @media(max-width:950px){

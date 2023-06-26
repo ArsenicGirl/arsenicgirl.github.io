@@ -384,7 +384,68 @@ medidas para tablet*/
         margin-left: 25%;
     }
 }
+/*medidas para celular*/
 
+@media (max-width: 500px) {
+
+    .initial-info .initial-info-portada{
+        height: 50rem;
+    }
+    .principal-img{
+        margin-left: 8vw;
+    }
+    .initial-text{
+        width: 18pc;
+        margin-left: 4pc;
+        margin-top: 5pc;
+    }
+    .initial-info #box-1 {
+        margin-left: 29vw;
+        margin-top: 8vw;
+        margin-left: 19vw;
+        box-shadow: 0 0 15px #00000094;
+    }
+    .initial-info #box-2 {
+        margin-left: 6pc;
+    }  
+    .initial-info #box-3 {
+        margin-left: 6.5pc;
+    }  
+    .link-banco{
+        width: 22%;
+        margin-left: 60vw;
+
+    }
+    .link-uni{
+        width: 22%;
+        margin: -120px 0px 20px 95px;
+    }
+    .btn-mail , .btn-wst{
+        width: 16%;
+    }
+    .btn-wst{
+        margin-left: 24%;
+    }
+    .formulario{
+        margin-left: 10%;
+        width: 400px;
+        height: 21pc ;
+    }
+    form .name{
+        width: 320px;
+        margin: 22px 0;
+    }
+    .name input{
+        font-size: 20px;
+    }
+    input[type="submit"]{
+        width: 80%;
+        height: 40px;
+        font-size: 15px;
+        margin-left: 40px;
+    }
+
+}
 
 /*
 @media (max-height:1000px) {
