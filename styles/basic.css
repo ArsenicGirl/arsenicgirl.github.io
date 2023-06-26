@@ -50,6 +50,7 @@ a{
     color: var(--text-color);
     text-decoration: none;
 }
+
 .menu{
     display: flex;
     list-style: none;
