@@ -276,7 +276,7 @@ h3{
     top: 100px;
     margin-left: 35%;
     width: 430px;
-    height: 26pc ;
+    height: 34pc ;
     background-color: #1e5da96b;
     border-radius: 10px;
    
@@ -335,10 +335,27 @@ input[type="submit"]{
     border-color: #acc9f1;
 }
 
+#lista-label{
+    color: #353d4bd8;
+    margin-bottom: 60px;
+}
+.logo-form{
+    width: 30%;
+    border-radius: 10px;
+    margin-left: 50%;
+}
+select{
+    height: 30px;
+    font-size: 16px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.493);
+    margin-top: 15px;
+}
+
 /*
 
 medidas para tablet*/
-@media (max-width: 768px) {
+@media (max-width: 790px) {
     h1{
         font-size:27px;
     }
