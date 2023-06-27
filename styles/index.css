@@ -47,7 +47,7 @@ body{
 
 
 .initial-text{
-    margin: -18% 0 0 30% ;
+    margin: -15% 0 0 33% ;
     width: 600px;
     height: 200px;
     font-family: var(--word-font);
@@ -59,10 +59,10 @@ body{
 }
 .principal-img{
     margin-top: 30px;
-    width: 150px;
+    width: 350px;
     display: flex;
     min-width: 250px;
-    height: fit-content;
+    height: 220px;
     margin-left: 20px;
     box-shadow: 40px 40px 8px #00000042;
 }
@@ -348,8 +348,9 @@ select{
     height: 30px;
     font-size: 16px;
     border-radius: 15px;
-    background: rgba(255, 255, 255, 0.493);
+    background: #bfd5e77e;
     margin-top: 15px;
+    border: transparent;
 }
 
 /*
