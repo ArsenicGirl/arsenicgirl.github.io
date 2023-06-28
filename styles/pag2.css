@@ -46,7 +46,7 @@ a{
 
 .list-container-2{
     font-family: var(--word-font);
-    font-size: 27px;
+    font-size: 24px;
     margin-left: -24px;
     color: antiquewhite;
 }
@@ -64,7 +64,8 @@ a{
 .principal-img-2{
     margin-top: 6%;
     display: flex;
-    width:34%;
+    width:40%;
+    height: 90%;
     margin-bottom: 50px;
 }
 .contact-tittle{
