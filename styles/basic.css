@@ -1,6 +1,6 @@
 :root{
     --background-color: white;
-    --header-color: #132A4C; 
+    --header-color: white/*#132A4C*/; 
     --tittle-color: white;
     --text-color: aliceblue;
     --word-font: 'Rubik', sans-serif;
@@ -11,8 +11,8 @@ html{
 }
 
 .header{
-    background: var(--header-color);
-    box-shadow: 0 4px 5px black;
+    background: whitesmoke/*var(--header-color)*/;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.637);
     position: fixed;
     top: 0;
     left: 0;
@@ -38,17 +38,17 @@ html{
     align-items: center;
 }*/
 .header-icon{
-    width: 20px;
+    width: 40%;
     display: flex;
     min-width: 80px;
     height: fit-content;
-    border-radius: 48%;
+    border-radius: 10px;
 }
 
 
 /*Menu*/
 a{
-    color: var(--text-color);
+    color: rgb(49, 100, 141) /*var(--text-color)*/;
     text-decoration: none;
 }
 
@@ -70,7 +70,7 @@ a{
 
 .menu li::before{
     content: "";
-    background-color: brown/*#D90D32*/;
+    background-color: rgba(165, 42, 42, 0.664)/*brown*//*#D90D32*/;
     position:absolute;
     top: 63%;
     width: 6%;
