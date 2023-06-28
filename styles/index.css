@@ -246,11 +246,55 @@ h3{
     margin-top: -2000pc;
     box-shadow: 0 4px 12px black;
 }
+
+/*contactanos*/
+
 .contact-text{
     text-align: center;
     font-size: 27px;
     margin: 70px 70px 60px 70px;
 }
+.contact-box-1{
+    margin: -4px 15vw 9px;
+    width: 450px;
+    height: 470px;
+    padding: 10px;
+    font-family: var(--word-font);
+    border: 1px solid #050505b0;
+    background-color: var(--background-color);
+    bottom: 10px;
+    left: calc(50% - 438px);
+    box-shadow: 0 0 15px #0000007c;
+    border: transparent;
+    border-radius: 25px;
+}
+
+.contact-box-2{
+    margin: -31pc 60vw 70px;
+    width: 450px;
+    height: 470px;
+    padding: 10px;
+    font-family: var(--word-font);
+    border: 1px solid #050505b0;
+    background-color: var(--background-color);
+    bottom: 10px;
+    left: calc(50% - 438px);
+    box-shadow: 0 0 15px #0000007c;
+    border: transparent;
+    border-radius: 25px;
+}
+
+.contact-box-1:hover{
+    transform: translateY(-20px);
+    box-shadow: 3px 5px 30px 5px #0000005b;
+    transition: transform 0.8s ease, box-shadow 0.3s ease;
+}
+.contact-box-2:hover{
+    transform: translateY(-20px);
+    box-shadow: 3px 5px 30px 5px #0000005b;
+    transition: transform 0.8s ease, box-shadow 0.3s ease;
+}
+
 
 .btn-conections{
     align-items: center;
@@ -268,6 +312,8 @@ h3{
     border-radius: 50%;
     box-shadow: 0 4px 12px black;
 }
+
+
 
 /*Formulario*/
 
