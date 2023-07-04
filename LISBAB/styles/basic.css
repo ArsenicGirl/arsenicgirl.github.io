@@ -1,3 +1,5 @@
+/*Variables universales en el código*/
+
 :root{
     --background-color: white;
     --header-color: white/*#132A4C*/; 
@@ -6,12 +8,16 @@
     --word-font: 'Rubik', sans-serif;
 
 }
+
+/* se declara para que la página baje suavemente al seleccionar una opción del menú*/
+
 html{
     scroll-behavior: smooth;
 }
 
+/*general del header*/
 .header{
-    background: whitesmoke/*var(--header-color)*/;
+    background: whitesmoke;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.637);
     position: fixed;
     top: 0;
@@ -37,6 +43,7 @@ html{
     display: flex;
     align-items: center;
 }*/
+
 .header-icon{
     width: 40%;
     display: flex;
@@ -161,7 +168,7 @@ footer{
 }
 
 
-/*redes sociales*/
+/*redes sociales del footer*/
 .social-icon-fb{
     width: 75px;
     border-radius: 50px;
@@ -213,7 +220,7 @@ footer{
     list-style: none;
 }
 
-/*ipad*/
+/* medidas de ipad*/
 
 @media (max-width: 768px) {
 
