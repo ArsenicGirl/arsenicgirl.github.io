@@ -17,6 +17,7 @@ html{
 
 /*general del header*/
 .header{
+    z-index: 50; /*para manejar la capa, entre menor sea el numero mas atras de las capas está*/
     background: white;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.637);
     position: fixed;

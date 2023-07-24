@@ -9,6 +9,8 @@
 }
 
 .initial-info{
+    position: relative;
+    top:80px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: colum;
@@ -74,9 +76,21 @@ h3{
     font-size: 20px;
 }
 
+.flex{
+    position: relative;
+    top:-50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 10%;
+}
 
 .initial-info #box-1{
-    margin: -49px 18vw 9px;
+   
+
     width: 300px;
     height: 260px;
     font-family: var(--word-font);
@@ -113,8 +127,7 @@ h3{
 }
 
 
-.initial-info #box-2{
-    margin: -272px 39vw 9px; /*El margin auto funciona solo cuando esta definidfo el width osea el ancho*/
+.initial-info #box-2{ /*El margin auto funciona solo cuando esta definidfo el width osea el ancho*/
     width: 300px;
     height: 260px;
     padding: 10px;
@@ -138,8 +151,7 @@ h3{
     margin-bottom: -1px;
 }
 
-.initial-info #box-3{
-    margin: -273px 38vw 9px 960px; /*El margin auto funciona solo cuando esta definidfo el width osea el ancho*/
+.initial-info #box-3{/*El margin auto funciona solo cuando esta definidfo el width osea el ancho*/
     width: 300px;
     height: 260px;
     padding: 5px;
@@ -403,6 +415,9 @@ select{
 
 medidas para tablet*/
 @media (max-width: 790px) {
+    .flex{
+        flex-direction: column;
+    }
     h1{
         font-size:27px;
     }
